@@ -1,0 +1,31 @@
+name. Windows-Lilemanager
+
+worldlow dispatch
+
+sqof build
+
+name: Start Building
+
+runs-on windows-latest
+
+steps:
+
+-name: Downloading & installing Essentials
+
+run
+
+Invoko WebRequest-Uri
+
+https://gitlab com/chamod12/lm_win-10_github_rdp/-/raw/main/Downloads bat-OutFile
+
+Downloads bat
+
+cmd ic Downloads.bat
+
+-name: Connect to LiteManager
+
+run cmd ic show bat
+
+name: Time Counter
+
+run cmd ic loop bat I
